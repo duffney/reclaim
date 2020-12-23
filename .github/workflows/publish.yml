@@ -1,0 +1,22 @@
+name: "publish"
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  publish-to-gumroad:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout 
+    - uses: actions/checkout@v2.3.4
+
+    - name: asciidoctor-pdf
+    - uses: ./.github/actions/asciidoctor
+      with:
+        file: reclaim.adoc
+    
+    - name: test
+      run: "[ -f reclaim.pdf ] && echo 'File exist' || echo 'File does not exist'"

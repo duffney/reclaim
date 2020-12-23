@@ -1,0 +1,28 @@
+= Reclaim
+Joshua Duffney
+Version 0.0.1, 2020-12-23
+:front-cover-image: image::book-cover.png[fit=cover]
+:doctype: book
+:imagesdir: images
+:icons: font
+:toc: right
+:toclevels: 2
+ifndef::ebook-format[:leveloffset: 1]
+
+include::introduction.adoc[]
+
+= Part 1 - Oversubscribed
+include::running-on-empty.adoc[]
+include::always-on-is-for-databases.adoc[]
+include::attention-matters-more-than-time.adoc[]
+= Part 2 - Detach from Distraction
+include::track-to-measure.adoc[]
+include::make-your-cell-phone-undesirable.adoc[]
+include::optimize-idleness-for-daily-learning.adoc[]
+include::hit-reset.adoc[]
+= Part 3 - Reintegration
+include::be-reachable-on-your-own-terms.adoc[]
+include::curate-the-push-pull-by-default.adoc[]
+include::unsubscribe-and-defragment.adoc[]
+include::become-social-again.adoc[]
+include::writing-is-the-cache.adoc[]

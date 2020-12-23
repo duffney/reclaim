@@ -1,0 +1,2 @@
+[#curate-the-push-pull-by-default]
+== Curate the Push, Pull by Default

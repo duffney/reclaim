@@ -1,0 +1,12 @@
+name: 'asciidoctor'
+description: 'Runs an asciidoctor-pdf'
+inputs:
+  file:
+    description: 'Path to adoc file'
+    required: true
+    default: book.adoc
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.file }}

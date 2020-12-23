@@ -1,1 +1,1 @@
-[<img src="_images/cover.png" class="center">](https://duffney.substack.com/)
+[<img src="images/cover.png" class="center">](https://duffney.substack.com/)

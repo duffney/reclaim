@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: checkout 
-    - uses: actions/checkout@v2.3.4
+      uses: actions/checkout@v2.3.4
 
     - name: asciidoctor-pdf
-    - uses: ./.github/actions/asciidoctor
+      uses: ./.github/actions/asciidoctor
       with:
         file: reclaim.adoc
     

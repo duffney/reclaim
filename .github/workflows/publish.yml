@@ -10,16 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: checkout 
+    - name: Checkout 
       uses: actions/checkout@v2.3.4
 
-    - name: asciidoctor-pdf
+    - name: Create PDF with asciidoctor-pdf
       uses: ./.github/actions/asciidoctor
       with:
         file: reclaim.adoc
-    
-    - name: test
-      run: "[ -f reclaim.pdf ] && echo 'File exist' || echo 'File does not exist'"
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
@@ -28,6 +25,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
 
-    - name: copy book to s3
+    - name: Copy Book to AWS S3
       run: |
         aws s3 cp reclaim.pdf s3://duffneyio/books/ --acl public-read

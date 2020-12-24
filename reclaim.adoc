@@ -12,9 +12,11 @@ ifndef::ebook-format[:leveloffset: 1]
 include::introduction.adoc[]
 
 = Part 1 - Oversubscribed
-include::running-on-empty.adoc[]
-include::always-on-is-for-databases.adoc[]
 include::attention-matters-more-than-time.adoc[]
+include::always-on-is-for-databases.adoc[]
+include::lost-without-conversation.adoc[]
+include::side-effects-of-usage.adoc[]
+
 = Part 2 - Detach from Distraction
 include::track-to-measure.adoc[]
 include::make-your-cell-phone-undesirable.adoc[]
@@ -23,6 +25,6 @@ include::hit-reset.adoc[]
 = Part 3 - Reintegration
 include::be-reachable-on-your-terms.adoc[]
 include::curate-the-push-pull-by-default.adoc[]
-include::unsubscribe-and-defragment.adoc[]
 include::become-social-again.adoc[]
 include::writing-is-the-cache.adoc[]
+include::the-purposeful-distraction.adoc[]

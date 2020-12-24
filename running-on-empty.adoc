@@ -1,2 +1,0 @@
-[#running-on-empty]
-== Running on Empty

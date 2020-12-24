@@ -21,7 +21,7 @@ include::make-your-cell-phone-undesirable.adoc[]
 include::optimize-idleness-for-daily-learning.adoc[]
 include::hit-reset.adoc[]
 = Part 3 - Reintegration
-include::be-reachable-on-your-own-terms.adoc[]
+include::be-reachable-on-your-terms.adoc[]
 include::curate-the-push-pull-by-default.adoc[]
 include::unsubscribe-and-defragment.adoc[]
 include::become-social-again.adoc[]

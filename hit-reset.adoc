@@ -1,2 +1,31 @@
 [#hit-reset]
 == Hit RESET
+
+=== Install Trackers
+
+Put a number on your screentime. To do that install and setup usage tracking software.
+
+**iOS**
+
+* Screen Time
+* Moment
+
+**Andriod**
+
+* Digital Wellbeing & parental controls
+* Usage Time - App Usage Manager
+
+I recommend installing both apps per OS. It will give you more data to look at.
+
+Cell phones are designed to be consumption devices. And that's what you spent most of the time on your phone doing. Shining a light on your daily cell phone usage will illuminate how much time you have.
+
+**Google Chrome**
+
+* https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk?hl=en[Webtime Tracker]
+
+
+You are concerned with capturing wasted time. Knowing where every single minute is spent isn't the point. If you don't use Google Chrome any other tracker will work. The goal is to get a baseline, then calculate the average time spent on social media sites, discussion boards, YouTube, etc...
+
+Keep these trackers installed for the duration of the challenge. They will keep you honest.
+
+**Gather usage data for 3-7 days**. You will use the data to help define your usage rules. The biggest offenders will be the apps you spent the most time in.

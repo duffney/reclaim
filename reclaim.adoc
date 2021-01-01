@@ -1,6 +1,7 @@
 = Reclaim
 Joshua Duffney
-Version 0.0.1, 2020-12-23
+Version 0.0.2, 2021-01-01
+//Version 0.0.1, 2020-12-23
 :front-cover-image: image::book-cover.png[fit=cover]
 :doctype: book
 :imagesdir: images
